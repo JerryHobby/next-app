@@ -1,0 +1,19 @@
+
+
+https://docs.google.com/document/d/1fmbSPZMwc4cU4xH0Rur8RPA2nvpPzJ_RHuMiXL8vTV8/edit?tab=t.0
+
+
+https://jsonplaceholder.typicode.com/
+
+npx create-next-app
+npm run build
+npm run start
+npm run dev
+
+cmd /c taskkill /F /IM node.exe
+
+
+npm i -D daisyui@latest
+
+
+https://daisyui.com/docs/themes/
