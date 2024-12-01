@@ -76,11 +76,7 @@ export async function DELETE(request: NextRequest,
             id: parseInt(id)
         }
     })
-        <<<<<<<< < Temporary merge branch 1
-    S
-=========
 
->>>>>>>>> Temporary merge branch 2
     if (!user) {
         return NextResponse.json({ error: "User not found" }, { status: 400 })
     }
