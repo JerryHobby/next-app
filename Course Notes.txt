@@ -22,6 +22,9 @@ https://daisyui.com/docs/themes/
 
 
 
+npx prisma init
+npx prisma format
+npx prisma migrate dev
 
 
 npx prisma
