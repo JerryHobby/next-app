@@ -17,6 +17,11 @@ const UploadPage = () => {
             {publicId && <CldImage src={publicId} width={270} height={270} alt="A coffee image" />}
             <CldUploadWidget
                 uploadPreset="byxyw1yx"
+                options={{
+                    sources: ["local"],
+                    multiple: false,
+                    maxFiles: 5
+                }}
                 onError={(error) => console.error("Upload Error:", error)}
                 onSuccess={(result) => {
                     const info = result.info as CloudinaryResults;
