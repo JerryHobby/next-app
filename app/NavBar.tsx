@@ -7,6 +7,8 @@ const NavBar = () => {
             <Link href='/'>NextJS</Link>
             <Link href='/users'>Users</Link>
             <Link href='/api/auth/signin'>Login</Link>
+            <Link href={'/api/auth/signout'}>Logout</Link>
+            <Link href={'/api/auth/token'}>Token</Link>
         </div>
     )
 }
