@@ -3,9 +3,10 @@ import React from 'react'
 
 const NavBar = () => {
     return (
-        <div className='flex bg-slate-200 p-5'>
-            <Link href='/' className='mr-5'>NextJS</Link>
+        <div className='flex bg-slate-200 p-5 space-x-3'>
+            <Link href='/'>NextJS</Link>
             <Link href='/users'>Users</Link>
+            <Link href='/api/auth/signin'>Login</Link>
         </div>
     )
 }

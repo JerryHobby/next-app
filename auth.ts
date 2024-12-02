@@ -1,4 +1,6 @@
 import NextAuth from "next-auth"
-import { authConfig } from "./app/auth.config"
-
-export const { handlers, signIn, signOut, auth } = NextAuth(authConfig)
+import Google from "next-auth/providers/google"
+ 
+export const { handlers, signIn, signOut, auth } = NextAuth({
+  providers: [Google],
+})
