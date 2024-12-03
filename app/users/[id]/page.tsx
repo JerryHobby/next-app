@@ -3,14 +3,14 @@ import React from 'react'
 
 interface Props {
     params: Promise<{
-        id: number
+        id: string
     }>
 }
 
 const UserDetailPage = async ({ params }: Props) => {
     const { id } = await params;
 
-    if (id > 10) notFound();
+    if (isNaN(parseInt(id))) return notFound();
 
     return (
         <div>UserDetailPage {id}</div>

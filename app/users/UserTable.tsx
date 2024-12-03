@@ -3,7 +3,7 @@ import React from 'react'
 import { sort } from 'fast-sort'
 
 interface User {
-    id: number
+    id: string
     name: string
     email: string
 }
