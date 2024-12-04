@@ -16,6 +16,7 @@
     "@types/bcryptjs": "^2.4.6",
     "bcryptjs": "^2.4.3",
     "fast-sort": "^3.4.1",
+    "lodash": "^4.17.21",
     "next": "15.0.3",
     "next-auth": "^5.0.0-beta.25",
     "next-cloudinary": "^6.16.0",
@@ -28,6 +29,7 @@
   },
   "devDependencies": {
     "@types/bcrypt": "^5.0.2",
+    "@types/lodash": "^4.17.13",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
