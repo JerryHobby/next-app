@@ -1,10 +1,8 @@
-import ProductCard from "./components/ProductCard";
-import { auth } from "@/auth";
+// import ProductCard from "./components/ProductCard";
 import Image from "next/image";
-import coffee from "@/public/images/coffee.jpg";
+// import coffee from "@/public/images/coffee.jpg";
 
 export default async function Home() {
-  const session = await auth();
 
   return (
     <main className="relative h-screen">
